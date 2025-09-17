@@ -17,8 +17,9 @@ export default function Modal ({
       <div //모달
         className="bg-white rounded-[0.7rem] shadow-lg w-full p-5"
         onClick={(e)=> e.stopPropagation()} 
-        //모달 부분은 이벤트를 막아서 모달 창을 누르더라도 종료 안 되게 함. 
+        //모달 부분은 이벤트를 막아서 모달 창을 누르더라도 종료 안 되게끔 함. 
       >
+
         {/* 모달 제목 */}
         {title && (
           <h2 className="text-xl font-semibold text-black">
