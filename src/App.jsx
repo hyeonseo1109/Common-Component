@@ -3,7 +3,8 @@ import { SignIn } from "./components/SignIn";
 import Button from "./components/ui/Button";
 import { Input } from "./components/ui/Input";
 import Modal from "./components/ui/Modal";
-import { useOpenModal } from "./zoostand/store";
+import { useOpenModal } from "./store";
+
 
 export default function App() {
   const {openModal, setOpenModal} = useOpenModal();
