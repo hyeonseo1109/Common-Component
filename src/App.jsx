@@ -27,10 +27,10 @@ export default function App() {
       <Button size="lg" variant="common">common-m</Button>
     </div>
     <div className="flex flex-col gap-5 border p-8">
-      <h1 className="text-black">confirm/cancle 버튼</h1>
+      <h1 className="text-black">confirm/cancel 버튼</h1>
       <div className="flex gap-5">
         <Button size="sm" variant="confirm">confirm-sm</Button>
-        <Button size="sm" variant="cancle">cancle-sm</Button>
+        <Button size="sm" variant="cancel">cancel-sm</Button>
       </div>
     </div>
 
@@ -64,7 +64,7 @@ export default function App() {
         footer={
         <div className="flex gap-5">
           <Button size="sm" variant="confirm">confirm-sm</Button>
-          <Button size="sm" variant="cancle">cancle-sm</Button>
+          <Button size="sm" variant="cancel">cancel-sm</Button>
         </div>}
 
       />
