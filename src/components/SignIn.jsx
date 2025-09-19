@@ -50,6 +50,14 @@ export function SignIn () {
         onChange={handlePassword} //유효성검사 메세지 출력
         error={passwordError}
       />
+
+      <Input
+        label="메롱"
+        type="text"
+        placeholder="메롱"
+        classNames="border px-3"
+        error={passwordError}
+      />
     </div>
     
   )
